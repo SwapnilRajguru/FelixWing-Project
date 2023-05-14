@@ -1,0 +1,90 @@
+.card-container{
+  background-image: url("https://www.cyberworx.in/images/services/website-startups.jpg");
+  height: 97vh;
+  /* width:1290px; */
+  background-repeat:no-repeat;
+  background-size:cover;
+  /* margin-left: -90px; */
+
+  
+
+}
+
+.title{
+  padding-top: 50px;
+  
+}
+
+#login{
+  font-size: 20px;
+}
+input[type=text],[type=email],[type=password]select{
+  
+  padding: 20px 20px;
+  margin: 8px 0px;
+
+  border: 1px solid black;
+  border-radius: 30px;
+  
+}
+input[type=submit]{
+  width: 150px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;  
+}
+input[type=submit]:hover{
+  background-color: #14c28e;
+}
+
+
+.example-form{
+  border-radius: 35px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 420px;
+  margin: 80px auto;
+  height: 300px;
+  border:1.5px solid #bbbbbb;
+  opacity: 0.85;
+  overflow: hidden;
+}
+.col-12{
+  padding: 10px;
+  margin-left: 28px;
+}
+
+#login{
+  text-align: center;
+  color: white;
+}
+
+#headline{
+  text-align: center;
+  color: rgb(255, 128, 69);
+  font-size: 50px;
+}
+#register{
+  text-align: center;
+  color: white;
+}
+input{
+  height: 25px;
+  width: 280px;
+}
+button{
+  color: black;
+  background-color: rgb(255, 128, 69);
+  height: 35px;
+  width: 90px;
+  border-radius: 20px;
+  margin-left: 114px;
+  
+}
+input.ng-invalid.ng-touched{
+  border-color: red;
+}
+p{
+  margin-left: 28px;
+}
